@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color:#C7E4EE;
+  box-shadow: 5px 10px 100px 10px pink inset;
+}
+
+.wrapper {
+  width: 350px;
+  height: 665px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  /* background-image: url('/background/sunny.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 20px 20px 50px grey;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.input {
+  background-color: antiquewhite;
+  color: #252525;
+  text-align: center;
+  border: #888888 1px solid;
+  border-radius: 5px;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+.button {
+  background-color: #6699CC;
+  border: 0;
+  border-radius: 5px;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+.weathercontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  padding-top: 5em;
+}
+
+.city {
+  text-transform: uppercase;
+}
+
+.currentweather {
+  text-align: center;
+  background-color: #65bf2e;
+  width: 150px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 5px 3px 20px #252525;
+}
