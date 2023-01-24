@@ -40,8 +40,9 @@
   background-color: #6699CC;
   border: 0;
   border-radius: 5px;
-  padding: .5em;
+  padding: 1em;
   margin-bottom: 3em;
+  color: whitesmoke;
 }
 
 .weathercontent {
