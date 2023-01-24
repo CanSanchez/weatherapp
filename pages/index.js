@@ -129,7 +129,7 @@ const click = (event) => {
                 style={{backgroundColor: color}}
               >{w.main}</div>
               <p className={styles.description}>{w.description}</p>
-              <p className={styles.description}>Wind: {data.wind.speed}m/s</p>
+              <p className={styles.description}>Wind: {data.wind.gust ? (data.wind.gust) : ('-')} m/s</p>
               <p className={styles.description}>Temperature: {data.main.temp}°C</p>
               <p className={styles.description}>Feels Like: {data.main.feels_like}°C</p>
             </div>
